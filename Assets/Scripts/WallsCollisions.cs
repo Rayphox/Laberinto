@@ -36,5 +36,4 @@ public class WallsCollisions : MonoBehaviour
             paredRoja = true;
         }
     }
-
 }
