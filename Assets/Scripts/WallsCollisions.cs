@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class WallsCollisions : MonoBehaviour
 {
-    [Serializefield]
+    [SerializeField]
     Material materialPorDefecto;
 
-    [Serializefield]
+    [SerializeField]
     Material materialParedTocada;
 
     bool paredRoja = false;
