@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CompRotatorio : MonoBehaviour
 {
-    [Serializefield]
+    [SerializeField]
     float rotacionY = 10f;
     void Update()
     {
