@@ -8,6 +8,10 @@ public class MetaDetector : MonoBehaviour
     [Serializefield]
     GameObject pantallaFinal;
 
+
+    [Serializefield]
+    TextMeshProUGUI textLabelTime;
+
     float tiempoDePartida = 0.0f;
     bool estaJugando = true;
 
@@ -26,6 +30,7 @@ public class MetaDetector : MonoBehaviour
             pantallaFinal.SetActive(true);
             other.GetComponent<PlayerMovement>().enabled = false;
             estaJugando = false;
+            textLabelTime.text = tiempoDePartida.ToString();
         }
     }
 
